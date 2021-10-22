@@ -3,15 +3,15 @@ variable "tenancy_id" {
 
 
 variable "freeform_tags" {
-  type=map
+  type = map(any)
 }
 
 variable "defined_tags" {
-  type=map
+  type = map(any)
 }
 
 variable "user" {
-  description="The user details"
+  description = "The user details"
 }
 
 variable "user_ocid" {

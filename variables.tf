@@ -1,15 +1,15 @@
 variable "user" {
-  description="The user details"
+  description = "The user details"
 }
 
 variable "freeform_tags" {
-  type=map
+  type = map(any)
 }
 
 variable "defined_tags" {
-  type=map
+  type = map(any)
 }
 
 variable "tenancy_id" {
-  type=string
+  type = string
 }
