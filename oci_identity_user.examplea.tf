@@ -1,5 +1,5 @@
 resource "oci_identity_user" "examplea" {
-  compartment_id = var.tenancy_id
+  compartment_id = var.tenancy_ocid
   description    = var.user["description"]
   name           = var.user["name"]
 

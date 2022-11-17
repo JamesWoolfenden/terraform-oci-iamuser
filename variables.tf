@@ -10,6 +10,6 @@ variable "defined_tags" {
   type = map(any)
 }
 
-variable "tenancy_id" {
+variable "tenancy_ocid" {
   type = string
 }

@@ -1,6 +1,6 @@
 resource "oci_identity_authentication_policy" "examplea" {
 
-  compartment_id = var.tenancy_id
+  compartment_id = var.tenancy_ocid
   # network_policy {
 
   #     network_source_ids = var.authentication_policy_network_policy_network_source_ids
